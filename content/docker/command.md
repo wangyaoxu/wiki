@@ -1,8 +1,7 @@
 ---
-title: "docker"
+title: "docker cli command"
 date: 2017-08-17 07:32
 updated: 2016-08-23 18:07
-collection: "docker-cli-command"
 log: "docker-cli-command"
 ---
 
