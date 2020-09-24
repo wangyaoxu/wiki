@@ -56,7 +56,7 @@ mysql> FLUSH PRIVILEGES;
 vim /etc/mysql/mysql.conf.d/mysqld.cnf
 
 去掉这一行的注释
-#bind-address            = 127.0.0.1
+> #bind-address            = 127.0.0.1
 
 3. 运行设置
 > su: warning: cannot change directory to /nonexistent: No such file or directory
