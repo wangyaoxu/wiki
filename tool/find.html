@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="/wiki/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/wiki/favicon.ico" type="image/x-icon">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
-    <title>docker cli command - wiki</title>
+    <title>find - wiki</title>
     <meta name="keywords" content="technology, machine learning, data mining, economics, accounting"/>
     <meta name="description" content="A wiki website of wangyaoxu when I learned new knowledgy and technics."/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -20,35 +20,21 @@
   <div id="post-nav">
     <a href="/wiki/">wiki</a>
     &nbsp;&#187;&nbsp;
-    <a href="/wiki/#docker">docker</a>
-    &nbsp;&#187;&nbsp;docker cli command
+    <a href="/wiki/#tool">tool</a>
+    &nbsp;&#187;&nbsp;find
     <span class="updated">当前页面最后更新&nbsp;
-    2016-08-23 18:07
-    
+    2013-08-17 07:32
     </span>
   </div>
 </div>
 <div class="clearfix"></div>
 <div id="content">
-  <h2 id="_1">格式</h2>
-<p>docker run -tid ubuntu</p>
-<blockquote>
-<p>-i 表示允许我们对容器进行操作 -t 表示在新容器内指定一个为终端 -d 表示容器在后台执行 <br />
-docker run -tid --name hd ubuntu /bin/bash</p>
-</blockquote>
-<p>docker start ContainerId<br />
-docker restart ContainerId<br />
-docker stop ContainerId<br />
-docke kill ContainerId</p>
-<h2 id="_2">查看容器</h2>
-<p>docker ps <br />
-docker ps -a<br />
-docker port xx # 查看端口映射</p>
-<p>docker logs xx</p>
-<h2 id="_3">删除</h2>
-<p>docker rm -f xx</p>
-<h2 id="_4">登录</h2>
-<p>docker exec -it xx /bin/bash </p>
+  <p>排除目录:</p>
+<div class="hlcode"><pre><span class="n">find</span> <span class="o">-</span><span class="n">name</span> <span class="err">&#39;</span><span class="o">*</span><span class="p">.</span><span class="n">js</span><span class="err">&#39;</span> <span class="o">-</span><span class="n">not</span> <span class="o">-</span><span class="n">path</span> <span class="err">&#39;</span><span class="o">*</span><span class="n">dirname</span><span class="o">*</span><span class="err">&#39;</span>
+</pre></div>
+
+
+<p><a href="http://stackoverflow.com/questions/4210042/exclude-directory-from-find-command">参考</a></p>
   
 </div>
     </div>
@@ -62,7 +48,7 @@ docker port xx # 查看端口映射</p>
         <p>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
       </div> <!-- end footer-left -->
       <div class="footer-right">
-        <p>站点最后生成 2020-09-25 03:09:01</p>
+        <p>站点最后生成 2020-09-25 05:31:15</p>
         <p><a href="https://github.com/tankywoo/wiki.tankywoo.com">Fork me on Github</a></p>
         <p><a href="http://www.miitbeian.gov.cn/">京ICP备16016622号</a></p>
       </div> <!-- end footer-right -->
