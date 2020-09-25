@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Mac OS 软件"
 date: 2014-01-25 15:08
 updated: 2016-04-27 21:35
